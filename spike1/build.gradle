@@ -7,7 +7,7 @@ plugins {
 	id 'org.jetbrains.kotlin.plugin.spring' version '1.5.0'
 }
 
-group = 'com.example'
+group = 'com.pintailconsultingllc'
 version = '0.0.1-SNAPSHOT'
 sourceCompatibility = '11'
 
@@ -28,9 +28,9 @@ dependencies {
 	implementation 'org.apache.kafka:kafka-clients:2.8.0'
 	implementation 'org.axonframework:axon-micrometer'
 	implementation 'org.axonframework:axon-spring-boot-starter'
-	implementation 'org.axonframework.extensions.kafka:axon-kafka-spring-boot-starter'
+//	implementation 'org.axonframework.extensions.kafka:axon-kafka-spring-boot-starter'
 	implementation 'org.axonframework.extensions.kotlin:axon-kotlin'
-	implementation 'org.axonframework.extensions.mongo:axon-mongo'
+//	implementation 'org.axonframework.extensions.mongo:axon-mongo'
 	implementation 'org.axonframework.extensions.reactor:axon-reactor-spring-boot-starter'
 	implementation 'org.axonframework.extensions.tracing:axon-tracing-spring-boot-starter'
 	implementation 'org.jetbrains.kotlin:kotlin-reflect'

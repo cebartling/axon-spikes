@@ -1,4 +1,4 @@
-package com.example.axon
+package com.pintailconsultingllc.axon
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
